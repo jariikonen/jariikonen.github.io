@@ -29,7 +29,6 @@ github_username: jariikonen
 
 # Build settings
 #theme: minima
-#theme: jekyll-theme-basically-basic
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 plugins:
   - jekyll-feed
