@@ -51,3 +51,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+timezone: Europe/Helsinki
+search: true

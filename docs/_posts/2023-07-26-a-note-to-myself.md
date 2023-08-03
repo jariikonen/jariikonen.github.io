@@ -2,7 +2,8 @@
 layout: post
 title: "Note to self: When something is not working, check first that there are no typos!"
 date: 2023-07-26 18:14:00 +0300
-categories: coding
+tags: coding
+read_time: true
 ---
 
 When coding or configuring software, there are often situations when things won't work as expected. You can be stuck with a problem for hours without figuring out where the problem is, and in the end, something very simple usually solves the problem. This is exactly what happened to me as I tried to set up this blog site and get it built by GitHub Pages.
@@ -19,6 +20,3 @@ So this is the note to myself: **Whenever there is something that is not working
 [gh-pages]: https://pages.github.com/
 [gh-pages_with_jekyll]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
 [changing_theme]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
