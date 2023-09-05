@@ -55,6 +55,6 @@ plugins:
 
 timezone: Europe/Helsinki
 search: true
-logo: /assets/images/jdb_logo.png
+logo: /assets/images/jdb_logo.svg
 #paginate: 1
 #paginate_path: /page:num/

@@ -1,0 +1,7 @@
+{
+  "name": "Jari's Dev Blog",
+  "icons": [
+    { "src": "/assets/images/favicon/favicon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/assets/imeges/favicon/favicon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}
