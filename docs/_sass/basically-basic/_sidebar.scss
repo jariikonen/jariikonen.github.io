@@ -126,7 +126,6 @@
 }
 
 .sidebar-toggle-wrapper {
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,12 +140,11 @@
   z-index: 10000;
 
   @include breakpoint($medium) {
-    right: 2rem;
-    padding-right: 0;
+    margin-right: 2rem;
   }
 
   @include breakpoint($large) {
-    right: 5vw;
+    margin-right: 5vw;
   }
 
   .toggle-inner {

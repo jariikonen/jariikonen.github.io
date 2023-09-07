@@ -1,0 +1,11 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: right;
+  z-index: 10000;
+  height: 0;
+}
