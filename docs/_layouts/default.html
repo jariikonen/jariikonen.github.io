@@ -12,7 +12,7 @@
 
     {% include skip-links.html %}
 
-    <div class="navbar">
+    <div id="navbar" class="is--visible">
       <div class="sidebar-toggle-wrapper">
         {% if site.search %}
           <button class="search-toggle" type="button">
@@ -53,6 +53,15 @@
     </div>
 
     {% include footer.html %}
+
+    <div id="btt-container" class="is--hidden">
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+          <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/>
+        </svg>
+      </a>
+    </div>
+
     {% include scripts.html %}
 
   </body>

@@ -1,0 +1,32 @@
+#btt-container {
+  position: sticky;
+  bottom: 1rem;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: right;
+  z-index: 10000;
+  margin-top: -3rem;
+
+  &.is--visible {
+    visibility: visible;
+    -webkit-transition: visibility 1s 0s;
+    transition: visibility 1s 0s;
+  }
+
+  &.is--hidden {
+    visibility: hidden;
+    -webkit-transition: visibility 1s 0s;
+    transition: visibility 1s 0s;
+  }
+}
+
+#btt-container a {
+  margin-right: 5vw;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.25rem;
+  background-color: $background-color;
+  border-radius: 50%;
+}
