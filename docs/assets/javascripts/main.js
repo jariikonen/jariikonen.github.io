@@ -99,7 +99,7 @@ let lastKnownScrollPosition = 0;
 let scrollDirection = 0;
 let ticking = false;
 let navbarHideLimit = 100;
-let bttShowLimit = window.innerHeight/3*2;
+let bttShowLimitMultiplier = 0.6;
 
 function controlNavbarVisibility(scrollDir, scrollPos) {
   if (scrollPos < navbarHideLimit) {
@@ -121,7 +121,7 @@ function controlNavbarVisibility(scrollDir, scrollPos) {
 }
 
 function controlBttVisibility(scrollPos) {
-  if (scrollPos < bttShowLimit) {
+  if (scrollPos < bttShowLimitMultiplier * window.innerHeight) {
     myBackToTop.classList.toggle("is--hidden", true);
     myBackToTop.classList.toggle("is--visible", false);
     return;
