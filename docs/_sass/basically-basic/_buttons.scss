@@ -42,4 +42,6 @@
 #menu-button:focus-visible {
   border: 2px solid black;
   border-radius: 5%;
+  -webkit-transition: none;
+  transition: none;
 }
