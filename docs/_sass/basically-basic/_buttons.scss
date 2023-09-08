@@ -37,3 +37,9 @@
     }
   }
 }
+
+#search-button:focus-visible,
+#menu-button:focus-visible {
+  border: 2px solid black;
+  border-radius: 5%;
+}
